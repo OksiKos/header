@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Roboto, sans-serif;
+    --sign-start-color: #ee2e14;
+    /*Колір червоної лінії на початку розділу*/
+    --beckground-dark: #232428;
+    /*Колір фону темних блоків*/
+    --chapter-font-color: #6f7380;
+    /*Колір шрифту назви блоку у світлих блоках */
+    --chapter-font-color-light: #ffffff99;
+    /*Колір шрифту назви блоку у темних блоках*/
+    --title-font-color: #505155;
+    /*Колір заголовку всередині блоку (для всіх блоків)*/
+    --title-font-color-light: #fff;
+    /*Колір частини тексту заголовку у темних блоках*/
+}
