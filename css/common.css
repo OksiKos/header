@@ -22,3 +22,11 @@
     --title-font-color-light: #fff;
     /*Колір частини тексту заголовку у темних блоках*/
 }
+.sign-start-chapter {
+    color: var(--sign-start-color);
+    font-size: 12px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+}
