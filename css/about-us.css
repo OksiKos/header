@@ -3,6 +3,7 @@
     padding: 90px 40px;
 }
 
+
 .about__title-us {
     color: var(--title-font-color);
     font-family: "Playfair Display", sans-serif;
@@ -73,13 +74,15 @@
         padding: 90px 20px 40px;
     }
 
+    .about-us {
+        padding: 0 30px;
+    }
     .about__title-us {
         color: var(--title-font-color);
         font-family: "Playfair Display", sans-serif;
         font-size: 39px;
         line-height: 1.2;
         font-weight: 700;
-        padding: 0 30px;
     }
 
     .booking-steps-card {
