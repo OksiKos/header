@@ -30,3 +30,25 @@
     max-width: 1200px;
     margin: auto;
 }
+.chapter-font-name {
+    color: var(--chapter-font-color);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .chapter-font-name-light {
+    color: var(--chapter-font-color-light);
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .title-font-light {
+    color: var(--title-font-color-light);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .title-font {
+    color: var(--title-font-color);
+    font-family: "Playfair Display", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+  }
