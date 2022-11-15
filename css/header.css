@@ -99,7 +99,7 @@ nav .header__nav-logo {
     transition: all 0.5s ease-in-out;
 }
 
-/* .header__nav-burger.active .header__nav-burger-line {
+.header__nav-burger.active .header__nav-burger-line {
     transform: scale(0);
 }
 
@@ -111,7 +111,7 @@ nav .header__nav-logo {
 .header__nav-burger.active::after {
     bottom: 40%;
     transform: rotate(45deg);
-} */
+}
 
 /* burger menu */
 
@@ -147,13 +147,13 @@ nav .header__nav-logo {
     padding: 120px 0;
 }
 
-/* .header__nav-menu-wrapper.active {
+.header__nav-menu-wrapper.active {
     top: 0;
 }
 
 body.lock {
     overflow: hidden;
-}   */
+}  
 
 @media (min-width: 992px) {
     .header__menu {
