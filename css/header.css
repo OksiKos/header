@@ -276,7 +276,7 @@ body.lock {
         .header__banner-play {
             display: flex;
             align-items: center;
-            margin: 450px auto 0;
+            margin: 350px auto 0;
         }
     }
 
@@ -372,4 +372,36 @@ body.lock {
 
     .item__about-more:hover {
         text-decoration: underline;
+    }
+    #weatherResult svg {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #weatherResult {
+        padding-top: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: var(--title-font-color-light);
+        font-size: 17px;
+    }
+    
+    .weather-input-value {
+        font-family: 'Roboto', sans-serif;
+        height: 25px;
+        font-size: 17px;
+        padding-left: 8px;
+        border-radius: 5px;
+    }
+    
+    .check-weather {
+        font-family: 'Roboto', sans-serif;
+        height: 25px;
+        font-size: 17px;
+        padding: 0 8px;
+        border-radius: 5px;
+    }
+    
+    .check-weather:hover {
+        color: var(--beckground-dark);
+        background-color: var(--title-font-color-light);
     }
